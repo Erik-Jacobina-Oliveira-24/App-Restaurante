@@ -55,7 +55,7 @@ def listar_restaurante():
         categoria = restaurante['categoria']
         ativo = 'Ativado' if restaurante['ativo'] else 'Desativado' 
         print(f'- {nome_restaurante.ljust(20)} | {categoria.ljust(20)} | {ativo}')
-
+        #Pode ser usado o código abaixo também
         #if ativo == True:
         #    ativo = 'Ativo'
         #else:
